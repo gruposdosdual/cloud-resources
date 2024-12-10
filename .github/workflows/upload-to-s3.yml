@@ -2,7 +2,7 @@
     run: | sudo apt-get update sudo apt-get install -y awscli
 - name: Verify AWS CLI 
     run: aws --version
--name: Configure AWS Credentials 
+- name: Configure AWS Credentials 
     uses: aws-actions/configure-aws-credentials@v2
         with: 
             aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }} 
