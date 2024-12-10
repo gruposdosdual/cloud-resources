@@ -3,9 +3,7 @@ name: Instalar AWS CLI
 on:
   push:
     branches:
-      - main
-      - develop
-      - feature/setup
+      - develope/javier
 
 jobs:
   validate:
